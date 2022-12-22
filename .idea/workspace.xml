@@ -5,163 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/portfolio-work-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fonts/Amalfi-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fonts/CirceRounded-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fonts/CirceRounded-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fonts/CirceRounded-Thin.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/anniversary-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/anniversary-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/header-main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mix-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mix-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mix-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/product-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/product-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/product-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/product-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/product-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/product-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/top-product-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/top-product-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/top-product-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/button/button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/button/button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/button/button.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/button/button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/container/container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/container/container.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/container/container.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/container/container.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/divider/divider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/divider/divider.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/divider/divider.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/divider/divider.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/divider/src/divider-bottom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/divider/src/divider-top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/icon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/icon.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/icon.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/icon.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/book-cooking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/breads-bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/breads-set.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/category-item-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/category-item-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/category-item-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/category-item-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/category-item-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/globe-eco.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/home-tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/human.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/scooter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/wheat-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/wheat-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/icon/src/wheat-bread.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/logo/logo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/logo/logo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/logo/logo.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/global/logo/logo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-card/mix-card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-card/mix-card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-card/mix-card.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-card/mix-card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-divider/mix-divider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-divider/mix-divider.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-divider/mix-divider.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix-divider/mix-divider.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mix/mix.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/nav-link/nav-link.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/nav-link/nav-link.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/nav-link/nav-link.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/nav-link/nav-link.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/process/process.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-card/products-card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-card/products-card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-card/products-card.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-card/products-card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/products-tab.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/products-tab.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/products-tab.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products-tab/products-tab.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/products.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-products.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-products.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/top-products/top-products.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/variables.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/classNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/process/process-card/process-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/process/process.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/products/products-card/products-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/products-card/products-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,8 +103,16 @@
       <workItem from="1671622079244" duration="3671000" />
       <workItem from="1671626597965" duration="5027000" />
       <workItem from="1671661991688" duration="3078000" />
-      <workItem from="1671693200792" duration="17422000" />
+      <workItem from="1671693200792" duration="18317000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1671721878232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671721878232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

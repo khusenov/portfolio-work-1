@@ -6,6 +6,7 @@ import product1 from "../../assets/images/top-product-1.png";
 import product2 from "../../assets/images/top-product-2.png";
 import product3 from "../../assets/images/top-product-3.png";
 import Button from "../global/button/button";
+import {amalfi_regular} from "../../../pages/_app";
 
 function TopProducts(props) {
     const  {
@@ -16,7 +17,7 @@ function TopProducts(props) {
         <section className={classNames([styles.products, className])}>
             <Container>
                 <div className={styles.products_body}>
-                    <h2 className={styles.products_title}>Самое горячее на этой неделе</h2>
+                    <h2 className={classNames([styles.products_title, amalfi_regular.className])}>Самое горячее на этой неделе</h2>
                     <div className={styles.products_container}>
                         <TopProductCard
                             image={product1}

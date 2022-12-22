@@ -1,6 +1,7 @@
 import styles from "./top-product-card.module.scss";
 import {classNames} from "../../../utils/classNames";
 import Image from "next/image";
+import {amalfi_regular} from "../../../../pages/_app";
 
 function TopProductCard(props) {
     const {
@@ -15,7 +16,7 @@ function TopProductCard(props) {
             <div className={styles.card_header}>
                 <Image src={image} alt={title} priority={true}/>
             </div>
-            <h4 className={styles.card_title}>{title}</h4>
+            <h4 className={classNames([styles.card_title, amalfi_regular.className])}>{title}</h4>
             <p className={styles.card_paragraph}>{paragraph}</p>
         </div>
     );
