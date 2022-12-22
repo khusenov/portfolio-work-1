@@ -22,7 +22,6 @@
   grid-column-gap: 32px;
 }
 .section_item_title {
-  font-family: var(--font-amalfi-regular), sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 36px;
