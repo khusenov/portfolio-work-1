@@ -1,0 +1,14 @@
+$container_width: 1072;
+
+.container {
+  width: 100%;
+  max-width: $container_width + px;
+  padding: 0 32px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+:export {
+  container_width: $container_width;
+}
+

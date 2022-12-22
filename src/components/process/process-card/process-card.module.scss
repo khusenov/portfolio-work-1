@@ -1,0 +1,36 @@
+@import "../../../styles/variables.module";
+
+.card {
+  display: flex;
+  align-items: flex-end;
+
+  &_num {
+    font-size: 132px;
+    line-height: 84px;
+    color: $color_primary_l20;
+    margin: 0 32px 0 0;
+    font-weight: 400;
+    font-family: var(--font-amalfi-regular), sans-serif;
+  }
+
+  &_content {
+    &_icon {
+      width: 60px;
+      height: 60px;
+      background-color: $color_primary_main;
+    }
+
+    &_title {
+      font-family: var(--font-amalfi-regular), sans-serif;
+      font-size: 64px;
+      line-height: 42px;
+      font-weight: 400;
+      color: $color_black_main;
+      margin: 24px 0 16px 0;
+    }
+
+    &_paragraph {
+      color: $color_black_l20;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+:export {
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_main: #000000;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.nav {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  align-items: center;
+}
+.nav_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_logo {
+  width: 122px;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+}
+.nav_menu_item:not(:last-child) {
+  --item-gap: 48px;
+  margin: 0 var(--item-gap) 0 0;
+}
+.nav_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.nav_contact_top {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin: 0 0 4px 0;
+}
+.nav_contact_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.nav_contact_bottom .icon {
+  width: 18px;
+  height: 18px;
+  background-color: #000000;
+  margin: 0 8px 0 0;
+}
+
+:export {
+  nav_height: 128;
+}
+
+/*# sourceMappingURL=navbar.module.css.map */

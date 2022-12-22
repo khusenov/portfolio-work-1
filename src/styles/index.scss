@@ -1,0 +1,51 @@
+@import "variables.module";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: $color_black_main;
+  background-color: $color_white_main;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-amalfi-regular), sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 132px;
+  line-height: 82px;
+}
+
+h2 {
+  font-size: 96px;
+  line-height: 64px;
+}
+
+h4 {
+  font-size: 64px;
+  line-height: 42px;
+}
+
+p {
+  font-family: var(--font-circeRounded-regular), sans-serif;
+  font-size: 18px;
+}
+
+p.small {
+  font-size: 16px;
+}

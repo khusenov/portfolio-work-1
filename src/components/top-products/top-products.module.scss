@@ -1,0 +1,34 @@
+@import "../../styles/variables.module";
+
+.products {
+  background-color: $color_white_d20;
+  padding: 48px 0;
+
+  &_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &_title {
+    text-align: center;
+    margin: 0 64px 0 0;
+  }
+
+  &_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    --gap-item: 32px;
+    --items: 3;
+    margin: 64px 0;
+  }
+
+  &_card {
+    width: calc(100% / var(--items) - var(--gap-item) / (var(--items) - 1));
+  }
+
+  &_btn {
+    text-align: center;
+  }
+}

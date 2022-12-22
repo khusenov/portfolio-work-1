@@ -1,0 +1,42 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.products {
+  background-color: #F6F6F0;
+  padding: 48px 0;
+}
+.products_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products_title {
+  text-align: center;
+  margin: 0 64px 0 0;
+}
+.products_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  --gap-item: 32px;
+  --items: 3;
+  margin: 64px 0;
+}
+.products_card {
+  width: calc(100% / var(--items) - var(--gap-item) / (var(--items) - 1));
+}
+.products_btn {
+  text-align: center;
+}
+
+/*# sourceMappingURL=top-products.module.css.map */

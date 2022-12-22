@@ -1,0 +1,36 @@
+@import "../../../styles/variables.module";
+
+.card {
+  width: 424px;
+  text-align: center;
+
+  &_img {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  &_title {
+    margin: 24px 0 16px 0;
+    color: $color_black_main;
+  }
+
+  &_paragraph {
+    color: $color_black_l20;
+  }
+
+  &_price {
+    margin: 8px 0 0 0;
+    color: $color_black_l20;
+  }
+}

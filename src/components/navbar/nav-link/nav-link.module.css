@@ -1,0 +1,21 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=nav-link.module.css.map */

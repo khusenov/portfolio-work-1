@@ -1,0 +1,32 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.divider {
+  --icon-size: 32px;
+  --gap: 8px;
+  display: flex;
+  align-items: center;
+  column-gap: var(--gap);
+}
+.divider_line {
+  width: calc(50% - (var(--icon-size) - var(--gap)) / 2);
+  height: 1px;
+  background-color: #E5E5E0;
+}
+.divider_icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-color: #a6a6a2;
+}
+
+/*# sourceMappingURL=mix-divider.module.css.map */

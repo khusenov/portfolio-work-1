@@ -1,0 +1,87 @@
+@import "../../../styles/variables.module";
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  background-color: $color_black_main;
+
+  &.phone {
+    mask-image: url("./src/phone.svg");
+  }
+
+  &.book-cooking {
+    mask-image: url("./src/book-cooking.svg");
+  }
+
+  &.breads-set {
+    mask-image: url("./src/breads-set.svg");
+  }
+
+  &.globe-eco {
+    mask-image: url("./src/globe-eco.svg");
+  }
+
+  &.home-tree {
+    mask-image: url("./src/home-tree.svg");
+  }
+
+  &.wheat-bread {
+    mask-image: url("./src/wheat-bread.svg");
+  }
+
+  &.wheat-2 {
+    mask-image: url("src/wheat-2.svg");
+  }
+
+  &.category-item-1 {
+    mask-image: url("src/category-item-1.svg");
+  }
+
+  &.category-item-2 {
+    mask-image: url("src/category-item-2.svg");
+  }
+
+  &.category-item-3 {
+    mask-image: url("src/category-item-3.svg");
+  }
+
+  &.category-item-4 {
+    mask-image: url("src/category-item-4.svg");
+  }
+
+  &.category-item-5 {
+    mask-image: url("src/category-item-5.svg");
+  }
+
+  &.breads-bag {
+    mask-image: url("src/breads-bag.svg");
+  }
+
+  &.scooter {
+    mask-image: url("src/scooter.svg");
+  }
+
+  &.human {
+    mask-image: url("src/human.svg");
+  }
+
+  &.wheat-3 {
+    mask-image: url("src/wheat-3.svg");
+  }
+
+  &.instagram {
+    mask-image: url("src/instagram.svg");
+  }
+
+  &.facebook {
+    mask-image: url("src/facebook.svg");
+  }
+
+  &.telegram {
+    mask-image: url("src/telegram.svg");
+  }
+}

@@ -1,0 +1,15 @@
+.tab {
+  display: flex;
+  column-gap: 32px;
+}
+.tab_item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tab .item {
+  width: 100%;
+  max-width: 96px;
+}
+
+/*# sourceMappingURL=products-tab.module.css.map */

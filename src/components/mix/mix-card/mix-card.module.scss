@@ -1,0 +1,26 @@
+@import "../../../styles/variables.module";
+
+.card {
+  width: 100%;
+  text-align: center;
+
+  &_img {
+    width: 100%;
+    height: 72px;
+    margin: 0 0 6px 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  &_title {
+    font-family: var(--font-amalfi-regular), sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,44 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.card {
+  width: 424px;
+  text-align: center;
+}
+.card_img {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+.card_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.card_title {
+  margin: 24px 0 16px 0;
+  color: #000000;
+}
+.card_paragraph {
+  color: #595957;
+}
+.card_price {
+  margin: 8px 0 0 0;
+  color: #595957;
+}
+
+/*# sourceMappingURL=products-card.module.css.map */

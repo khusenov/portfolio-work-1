@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  max-width: 1072px;
+  padding: 0 32px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+:export {
+  container_width: 1072;
+}
+
+/*# sourceMappingURL=container.module.css.map */

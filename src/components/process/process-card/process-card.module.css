@@ -1,0 +1,43 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.card {
+  display: flex;
+  align-items: flex-end;
+}
+.card_num {
+  font-size: 132px;
+  line-height: 84px;
+  color: #f8d276;
+  margin: 0 32px 0 0;
+  font-weight: 400;
+  font-family: var(--font-amalfi-regular), sans-serif;
+}
+.card_content_icon {
+  width: 60px;
+  height: 60px;
+  background-color: #F9BE35;
+}
+.card_content_title {
+  font-family: var(--font-amalfi-regular), sans-serif;
+  font-size: 64px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #000000;
+  margin: 24px 0 16px 0;
+}
+.card_content_paragraph {
+  color: #595957;
+}
+
+/*# sourceMappingURL=process-card.module.css.map */

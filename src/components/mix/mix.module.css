@@ -1,0 +1,51 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.section {
+  padding: 48px 0;
+}
+.section_title {
+  text-align: center;
+  margin: 0 0 64px 0;
+}
+.section_container {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+.section_content {
+  width: 52.5%;
+}
+.section_content_title {
+  margin: 0 0 36px 0;
+  color: #000000;
+}
+.section_content_paragraph {
+  color: #595957;
+  margin: 0 0 36px 0;
+}
+.section_content_cards {
+  display: flex;
+  column-gap: 32px;
+}
+.section_content_divider {
+  margin: 32px 0 36px 0;
+}
+.section_img {
+  width: 47.5%;
+}
+.section_img img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=mix.module.css.map */

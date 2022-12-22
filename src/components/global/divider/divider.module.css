@@ -1,0 +1,28 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.divider {
+  width: 100%;
+  height: 84px;
+  mask-image: url("./src/divider-top.svg");
+  mask-size: cover;
+  mask-position: center top;
+  mask-repeat: no-repeat;
+  background-color: #F6F6F0;
+}
+.divider.bottom {
+  mask-image: url("./src/divider-bottom.svg");
+  mask-position: center bottom;
+}
+
+/*# sourceMappingURL=divider.module.css.map */

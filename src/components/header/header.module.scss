@@ -1,0 +1,63 @@
+@import "../../styles/variables.module";
+@import "../navbar/navbar.module";
+
+.header {
+  padding: 48px 0;
+  min-height: calc(100vh - #{$nav_height + px});
+  display: flex;
+  align-items: center;
+
+  &_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  --gap: 32px;
+
+  &_content {
+    width: calc(50% - var(--gap) / 2);
+
+    &_title {
+      font-weight: 400;
+      font-size: 132px;
+      line-height: 84px;
+      color: $color_black_main;
+    }
+
+    &_paragraph {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      margin: 48px 0;
+      color: $color_black_l20;
+    }
+
+    &_btn {
+    }
+  }
+
+  &_img {
+    width: calc(50% - var(--gap) / 2);
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    &_bg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.3);
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      z-index: -1;
+    }
+  }
+}

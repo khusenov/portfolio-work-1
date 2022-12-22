@@ -1,0 +1,59 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.item {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.item_img {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+.item_img .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+.item_title {
+  font-family: var(--font-amalfi-regular), sans-serif;
+  font-size: 48px;
+  line-height: 36px;
+  margin: 24px 0;
+  font-weight: 400;
+  color: #000000;
+}
+.item:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: #F9BE35;
+  width: 0;
+  transition: width ease 0.2s;
+}
+.item.active:after {
+  width: 100%;
+}
+
+/*# sourceMappingURL=product-tab-item.module.css.map */

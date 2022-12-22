@@ -1,0 +1,26 @@
+@import "../../../styles/variables.module";
+
+.card {
+  display: flex;
+  align-items: center;
+
+  &_icon {
+    width: 60px;
+    height: 60px;
+    background-color: $color_primary_main;
+    margin: 0 32px 0 0;
+  }
+
+  &_content {
+    width: calc(100% - 60px - 32px);
+
+    &_title {
+      color: $color_black_main;
+    }
+
+    &_paragraph {
+      color: $color_black_l20;
+      margin: 32px 0 0 0;
+    }
+  }
+}

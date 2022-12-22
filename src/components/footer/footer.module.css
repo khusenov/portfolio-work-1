@@ -1,0 +1,48 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.section {
+  padding: 64px 0;
+  background-color: #282828;
+  color: #FFFFF9;
+}
+.section_body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 32px;
+}
+.section_item_title {
+  font-family: var(--font-amalfi-regular), sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 36px;
+  color: #FFFFF9;
+  margin: 0 0 24px 0;
+}
+.section_item_paragraph {
+  color: #b4b4b4;
+}
+.section_item_icons {
+  display: flex;
+  align-items: center;
+}
+.section_item_icons .icon {
+  width: 32px;
+  height: 32px;
+  background-color: #F9BE35;
+}
+.section_item_icons .icon:not(:last-child) {
+  margin: 0 16px 0 0;
+}
+
+/*# sourceMappingURL=footer.module.css.map */

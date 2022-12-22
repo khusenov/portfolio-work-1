@@ -1,0 +1,41 @@
+@import "../../styles/variables.module";
+
+.section {
+  padding: 48px 0;
+  background-color: $color_white_d20;
+
+  &_body {
+  }
+
+  &_title {
+    text-align: center;
+    margin: 0 0 96px 0;
+  }
+
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    --gap-items: 32px;
+
+    &:not(:last-child) {
+      margin: 0 0 48px 0;
+    }
+
+    &_content {
+      width: calc(40% - var(--gap-items));
+
+      &_card:not(:last-child) {
+        margin: 0 0 36px 0;
+      }
+    }
+
+    &_img {
+      width: calc(60% - var(--gap-items));
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

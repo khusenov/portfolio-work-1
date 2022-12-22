@@ -1,0 +1,33 @@
+@import "../../../styles/variables.module";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &_header {
+    width: 100%;
+    padding-top: 72%;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  &_title {
+    margin: 16px 0 32px 0;
+    color: $color_black_main;
+  }
+
+  &_paragraph {
+    color: $color_black_l20;
+  }
+}

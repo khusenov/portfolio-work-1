@@ -1,0 +1,1 @@
+export const classNames = classes => classes.filter(_class => _class).join(" ")

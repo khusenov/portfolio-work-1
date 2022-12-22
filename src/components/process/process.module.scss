@@ -1,0 +1,19 @@
+@import "../../styles/variables.module";
+
+.section {
+  padding: 48px 0;
+  background-color: $color_white_d20;
+
+  &_body {
+  }
+
+  &_title {
+    text-align: center;
+    margin: 0 0 96px 0;
+  }
+
+  &_cards {
+    display: flex;
+    column-gap: 32px;
+  }
+}
