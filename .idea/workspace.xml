@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process-card/process-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/products-card/products-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/products-card/products-card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/products-tab/product-tab-item/product-tab-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +93,7 @@
       <workItem from="1671622079244" duration="3671000" />
       <workItem from="1671626597965" duration="5027000" />
       <workItem from="1671661991688" duration="3078000" />
-      <workItem from="1671693200792" duration="18317000" />
+      <workItem from="1671693200792" duration="18644000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1671721878232</created>
@@ -112,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671721878232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1671722853077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671722853077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
