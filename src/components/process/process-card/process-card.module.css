@@ -21,7 +21,6 @@
   color: #f8d276;
   margin: 0 32px 0 0;
   font-weight: 400;
-  font-family: var(--font-amalfi-regular), sans-serif;
 }
 .card_content_icon {
   width: 60px;
@@ -29,7 +28,6 @@
   background-color: #F9BE35;
 }
 .card_content_title {
-  font-family: var(--font-amalfi-regular), sans-serif;
   font-size: 64px;
   line-height: 42px;
   font-weight: 400;

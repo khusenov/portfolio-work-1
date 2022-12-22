@@ -20,15 +20,6 @@ export const amalfi_regular = localFont({
 function MyApp({Component, pageProps}) {
     return (
         <main className={circeRoundedFont_regular.className}>
-            <style jsx gloabl>{`
-              html:root {
-                --font-circeRounded-regular: ${circeRoundedFont_regular.style.fontFamily};
-                --font-circeRounded-light: ${circeRoundedFont_light.style.fontFamily};
-                --font-circeRounded-thin: ${circeRounded_thin.style.fontFamily};
-                --font-amalfi-regular: ${amalfi_regular.style.fontFamily};
-              }
-            `}</style>
-
             <Component {...pageProps} />
         </main>
     )

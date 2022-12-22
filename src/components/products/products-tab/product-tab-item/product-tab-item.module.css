@@ -34,7 +34,6 @@
   background-color: #000000;
 }
 .item_title {
-  font-family: var(--font-amalfi-regular), sans-serif;
   font-size: 48px;
   line-height: 36px;
   margin: 24px 0;
