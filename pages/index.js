@@ -26,7 +26,7 @@ export default function Home() {
             {/*<Products/>*/}
             <Process/>
             <Divider direction="bottom"/>
-            {/*<Mix/>*/}
+            <Mix/>
             {/*<Contact/>*/}
             {/*<Footer/>*/}
         </>

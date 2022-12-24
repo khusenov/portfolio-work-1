@@ -47,4 +47,15 @@
       width: 100%;
     }
   }
+  
+  @media (max-width: 856px) {
+    &_content {
+      width: 100%;
+      text-align: center;
+    }
+
+    &_img {
+      display: none;
+    }
+  }
 }

@@ -14,7 +14,7 @@ function MixCard(props) {
     return (
         <div className={classNames([styles.card, className])} {...other}>
             <div className={styles.card_img}>
-                <Image src={image} alt={title} priority={true} style={{width: "auto"}}/>
+                <Image src={image} alt={title} priority={true} style={{width: "100%"}}/>
             </div>
             <h6 className={classNames([styles.card_title, amalfi_regular.className])}>{title}</h6>
         </div>

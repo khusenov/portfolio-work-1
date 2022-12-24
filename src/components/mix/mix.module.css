@@ -47,5 +47,14 @@
 .section_img img {
   width: 100%;
 }
+@media (max-width: 856px) {
+  .section_content {
+    width: 100%;
+    text-align: center;
+  }
+  .section_img {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=mix.module.css.map */

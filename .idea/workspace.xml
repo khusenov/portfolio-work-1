@@ -7,31 +7,11 @@
     <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary-card/anniversary-card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anniversary/anniversary.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/container/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/container/container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/container/container.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/container/container.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/container/container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/container/container.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process-card/process-card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/process/process.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/process/process.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-product-card/top-product-card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-products.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-products.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-products.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-products.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/top-products/top-products.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top-products/top-products.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mix-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mix-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mix/mix-card/mix-card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mix/mix-card/mix-card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mix/mix.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mix/mix.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mix/mix.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mix/mix.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mix/mix.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mix/mix.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
@@ -128,7 +108,7 @@
       <workItem from="1671799204907" duration="29000" />
       <workItem from="1671819181011" duration="3700000" />
       <workItem from="1671875694060" duration="9423000" />
-      <workItem from="1671906694783" duration="406000" />
+      <workItem from="1671906694783" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1671721878232</created>
@@ -200,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671877603618</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1671907142094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671907142094</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
