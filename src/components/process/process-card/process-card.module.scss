@@ -1,18 +1,24 @@
 @import "../../../styles/variables.module";
 
 .card {
+  --num-width: 32px;
+  --column-gap: 32px;
+
   display: flex;
   align-items: flex-end;
+  column-gap: var(--column-gap);
 
   &_num {
+    width: var(--num-width);
     font-size: 132px;
     line-height: 84px;
     color: $color_primary_l20;
-    margin: 0 32px 0 0;
     font-weight: 400;
   }
 
   &_content {
+    width: calc(100% - var(--num-width) - var(--column-gap));
+
     &_icon {
       width: 60px;
       height: 60px;
@@ -30,5 +36,9 @@
     &_paragraph {
       color: $color_black_l20;
     }
+  }
+
+  @media (max-width: 560px) {
+    --column-gap: 24px;
   }
 }

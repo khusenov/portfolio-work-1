@@ -14,15 +14,17 @@
 .card {
   display: flex;
   align-items: center;
+  --column-gap: 32px;
+  --icon-size: 60px;
+  column-gap: var(--column-gap);
 }
 .card_icon {
-  width: 60px;
-  height: 60px;
+  width: var(--icon-size);
+  height: var(--icon-size);
   background-color: #F9BE35;
-  margin: 0 32px 0 0;
 }
 .card_content {
-  width: calc(100% - 60px - 32px);
+  width: calc(100% - var(--icon-size));
 }
 .card_content_title {
   color: #000000;
@@ -30,6 +32,12 @@
 .card_content_paragraph {
   color: #595957;
   margin: 32px 0 0 0;
+}
+@media (max-width: 456px) {
+  .card {
+    --column-gap: 24px;
+    --icon-size: 52px;
+  }
 }
 
 /*# sourceMappingURL=anniversary-card.module.css.map */

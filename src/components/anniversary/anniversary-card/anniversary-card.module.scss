@@ -3,16 +3,19 @@
 .card {
   display: flex;
   align-items: center;
+  --column-gap: 32px;
+  --icon-size: 60px;
+
+  column-gap: var(--column-gap);
 
   &_icon {
-    width: 60px;
-    height: 60px;
+    width: var(--icon-size);
+    height: var(--icon-size);
     background-color: $color_primary_main;
-    margin: 0 32px 0 0;
   }
 
   &_content {
-    width: calc(100% - 60px - 32px);
+    width: calc(100% - var(--icon-size));
 
     &_title {
       color: $color_black_main;
@@ -22,5 +25,10 @@
       color: $color_black_l20;
       margin: 32px 0 0 0;
     }
+  }
+
+  @media (max-width: 456px) {
+    --column-gap: 24px;
+    --icon-size: 52px;
   }
 }

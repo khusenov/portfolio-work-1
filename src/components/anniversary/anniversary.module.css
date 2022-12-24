@@ -22,23 +22,42 @@
 .section_container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   --gap-items: 32px;
+  column-gap: var(--gap-items);
 }
 .section_container:not(:last-child) {
   margin: 0 0 48px 0;
 }
 .section_container_content {
-  width: calc(40% - var(--gap-items));
+  width: calc(45% - var(--gap-items) / 2);
 }
 .section_container_content_card:not(:last-child) {
   margin: 0 0 36px 0;
 }
 .section_container_img {
-  width: calc(60% - var(--gap-items));
+  width: calc(55% - var(--gap-items) / 2);
 }
 .section_container_img img {
   width: 100%;
+  height: 100%;
+}
+@media (max-width: 956px) {
+  .section_container {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  .section_container_content, .section_container_img {
+    max-width: 560px;
+    width: 100%;
+  }
+  .section_container_img {
+    order: 2;
+  }
+}
+@media (max-width: 560px) {
+  .section_title {
+    margin: 0 0 56px 0;
+  }
 }
 
 /*# sourceMappingURL=anniversary.module.css.map */

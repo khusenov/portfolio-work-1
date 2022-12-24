@@ -1,9 +1,8 @@
 .container {
   width: 100%;
-  max-width: 1072px;
+  max-width: 1136px;
   padding: 0 32px;
   margin: 0 auto;
-  box-sizing: content-box;
 }
 
 :export {

@@ -98,6 +98,7 @@
   min-height: calc(100vh - 128px);
   display: flex;
   align-items: center;
+  overflow: hidden;
   --gap: 32px;
 }
 .header_body {

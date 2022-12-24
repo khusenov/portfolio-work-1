@@ -6,6 +6,7 @@
   min-height: calc(100vh - #{$nav_height + px});
   display: flex;
   align-items: center;
+  overflow: hidden;
 
   &_body {
     display: flex;

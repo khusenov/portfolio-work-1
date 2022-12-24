@@ -43,12 +43,12 @@ function Anniversary(props) {
                             />
                         </div>
                         <div className={styles.section_container_img}>
-                            <Image src={image1} alt="image 1" priority={true} style={{width: "auto"}}/>
+                            <Image src={image1} alt="image 1" priority={true} style={{width: "100%"}}/>
                         </div>
                     </div>
                     <div className={styles.section_container}>
                         <div className={styles.section_container_img}>
-                            <Image src={image2} alt="image 2" priority={true} style={{width: "auto"}}/>
+                            <Image src={image2} alt="image 2" priority={true} style={{width: "100%"}}/>
                         </div>
                         <div className={styles.section_container_content}>
                             <AnniversaryCard

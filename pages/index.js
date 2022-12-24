@@ -20,12 +20,12 @@ export default function Home() {
             </Head>
             <Navbar/>
             <Header/>
-            {/*<Divider/>*/}
-            {/*<TopProducts/>*/}
-            {/*<Anniversary/>*/}
+            <Divider/>
+            <TopProducts/>
+            <Anniversary/>
             {/*<Products/>*/}
-            {/*<Process/>*/}
-            {/*<Divider direction="bottom"/>*/}
+            <Process/>
+            <Divider direction="bottom"/>
             {/*<Mix/>*/}
             {/*<Contact/>*/}
             {/*<Footer/>*/}

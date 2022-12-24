@@ -20,18 +20,21 @@ function Process(props) {
                     <h2 className={classNames([styles.section_title, amalfi_regular.className])}>Горячий хлеб уже в пути</h2>
                     <div className={styles.section_cards}>
                         <ProcessCard
+                            className={styles.section_cards_item}
                             order_num="1"
                             icon="breads-set"
                             title="Заказ"
                             paragraph="Закажите хлеб онлайн или по телефону"
                         />
                         <ProcessCard
+                            className={styles.section_cards_item}
                             order_num="2"
                             icon="scooter"
                             title="Доставка"
                             paragraph="Выберите время доставки и способ оплаты"
                         />
                         <ProcessCard
+                            className={styles.section_cards_item}
                             order_num="3"
                             icon="human"
                             title="Получение"

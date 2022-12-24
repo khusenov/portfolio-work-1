@@ -6,6 +6,7 @@
   box-sizing: border-box;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  //outline: 1px solid rebeccapurple;
 }
 
 ul, li {
@@ -50,10 +51,24 @@ p.small {
   h1 {
     font-size: 96px;
   }
+
+  h2 {
+    font-size: 74px;
+  }
+}
+
+@media (max-width: 486px) {
+  h4 {
+    font-size: 56px;
+  }
 }
 
 @media (max-width: 380px) {
   h1 {
     font-size: 82px;
+  }
+
+  h4 {
+    font-size: 48px;
   }
 }

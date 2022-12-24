@@ -14,7 +14,7 @@ function TopProductCard(props) {
     return (
         <div className={classNames([styles.card, className])}>
             <div className={styles.card_header}>
-                <Image src={image} alt={title} priority={true}/>
+                <Image src={image} alt={title} priority={true} style={{width: "100%"}}/>
             </div>
             <h4 className={classNames([styles.card_title, amalfi_regular.className])}>{title}</h4>
             <p className={styles.card_paragraph}>{paragraph}</p>

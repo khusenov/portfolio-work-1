@@ -12,15 +12,21 @@
 }
 
 .card {
+  --num-width: 32px;
+  --column-gap: 32px;
   display: flex;
   align-items: flex-end;
+  column-gap: var(--column-gap);
 }
 .card_num {
+  width: var(--num-width);
   font-size: 132px;
   line-height: 84px;
   color: #f8d276;
-  margin: 0 32px 0 0;
   font-weight: 400;
+}
+.card_content {
+  width: calc(100% - var(--num-width) - var(--column-gap));
 }
 .card_content_icon {
   width: 60px;
@@ -36,6 +42,11 @@
 }
 .card_content_paragraph {
   color: #595957;
+}
+@media (max-width: 560px) {
+  .card {
+    --column-gap: 24px;
+  }
 }
 
 /*# sourceMappingURL=process-card.module.css.map */
