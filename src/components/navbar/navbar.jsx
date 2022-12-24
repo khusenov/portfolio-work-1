@@ -4,6 +4,7 @@ import Container from "../global/container/container";
 import Logo from "../global/logo/logo";
 import NavLink from "./nav-link/nav-link";
 import Icon from "../global/icon/icon";
+import NavBurger from "./nav-burger/nav-burger";
 
 function Navbar(props) {
     const {
@@ -35,6 +36,7 @@ function Navbar(props) {
                             <p>+(420) 774-051-379</p>
                         </div>
                     </div>
+                    <NavBurger className={styles.nav_burger}/>
                 </div>
             </Container>
         </nav>

@@ -1,6 +1,7 @@
 @import "../../styles/variables.module";
 
 $nav_height: 128;
+$nav_height_mobile: 96;
 
 .nav {
   width: 100%;
@@ -58,6 +59,26 @@ $nav_height: 128;
         background-color: $color_black_main;
         margin: 0 8px 0 0;
       }
+    }
+  }
+
+  &_burger {
+    display: none !important;
+  }
+
+  @media (max-width: 856px) {
+    height: $nav_height_mobile + px;
+
+    &_logo {
+      width: 96px;
+    }
+
+    &_menu, &_contact {
+      display: none;
+    }
+
+    &_burger {
+      display: flex !important;
     }
   }
 }

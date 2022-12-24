@@ -1,0 +1,36 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.burger {
+  --burger-size: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: var(--burger-size);
+  height: var(--burger-size);
+}
+.burger_line {
+  width: calc(var(--burger-size) * 0.8);
+  height: calc(var(--burger-size) * 0.085);
+  border-radius: 100vh;
+  background-color: #000000;
+}
+.burger_line:nth-child(2) {
+  margin: calc(var(--burger-size) * 0.15) 0;
+}
+.burger_line:last-child {
+  width: calc(var(--burger-size) * 0.6);
+}
+
+/*# sourceMappingURL=nav-burger.module.css.map */

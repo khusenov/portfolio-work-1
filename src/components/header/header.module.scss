@@ -19,9 +19,6 @@
     width: calc(50% - var(--gap) / 2);
 
     &_title {
-      font-weight: 400;
-      font-size: 132px;
-      line-height: 84px;
       color: $color_black_main;
     }
 
@@ -58,6 +55,23 @@
       object-fit: contain;
       object-position: center;
       z-index: -1;
+    }
+  }
+
+  @media (max-width: 856px) {
+    &_body {
+      flex-direction: column-reverse;
+      row-gap: 48px;
+    }
+
+    &_img {
+      width: 100%;
+      max-width: 464px;
+    }
+
+    &_content {
+      width: 100%;
+      text-align: center;
     }
   }
 }

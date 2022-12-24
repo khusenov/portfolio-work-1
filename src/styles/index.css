@@ -34,30 +34,38 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+  line-height: 0.62em;
 }
 
 h1 {
   font-size: 132px;
-  line-height: 82px;
 }
 
 h2 {
   font-size: 96px;
-  line-height: 64px;
 }
 
 h4 {
   font-size: 64px;
-  line-height: 42px;
 }
 
 p {
-  font-family: var(--font-circeRounded-regular), sans-serif;
   font-size: 18px;
 }
 
 p.small {
   font-size: 16px;
+}
+
+@media (max-width: 560px) {
+  h1 {
+    font-size: 96px;
+  }
+}
+@media (max-width: 380px) {
+  h1 {
+    font-size: 82px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

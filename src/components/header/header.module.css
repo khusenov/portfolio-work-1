@@ -71,6 +71,23 @@
   background-color: #000000;
   margin: 0 8px 0 0;
 }
+.nav_burger {
+  display: none !important;
+}
+@media (max-width: 856px) {
+  .nav {
+    height: 96px;
+  }
+  .nav_logo {
+    width: 96px;
+  }
+  .nav_menu, .nav_contact {
+    display: none;
+  }
+  .nav_burger {
+    display: flex !important;
+  }
+}
 
 :export {
   nav_height: 128;
@@ -92,9 +109,6 @@
   width: calc(50% - var(--gap) / 2);
 }
 .header_content_title {
-  font-weight: 400;
-  font-size: 132px;
-  line-height: 84px;
   color: #000000;
 }
 .header_content_paragraph {
@@ -124,6 +138,20 @@
   object-fit: contain;
   object-position: center;
   z-index: -1;
+}
+@media (max-width: 856px) {
+  .header_body {
+    flex-direction: column-reverse;
+    row-gap: 48px;
+  }
+  .header_img {
+    width: 100%;
+    max-width: 464px;
+  }
+  .header_content {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=header.module.css.map */
