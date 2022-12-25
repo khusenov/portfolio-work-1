@@ -27,8 +27,8 @@ export default function Home() {
             <Process/>
             <Divider direction="bottom"/>
             <Mix/>
-            {/*<Contact/>*/}
-            {/*<Footer/>*/}
+            <Contact/>
+            <Footer/>
         </>
     )
 }

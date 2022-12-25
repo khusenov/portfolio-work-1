@@ -18,8 +18,10 @@
 }
 .section_body {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  --columns: 4;
+  grid-template-columns: repeat(var(--columns), 1fr);
   grid-column-gap: 32px;
+  grid-row-gap: 48px;
 }
 .section_item_title {
   font-weight: 400;
@@ -42,6 +44,22 @@
 }
 .section_item_icons .icon:not(:last-child) {
   margin: 0 16px 0 0;
+}
+@media (max-width: 924px) {
+  .section_body {
+    --columns: 2;
+  }
+}
+@media (max-width: 560px) {
+  .section_body {
+    --columns: 1;
+  }
+  .section_item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=footer.module.css.map */
