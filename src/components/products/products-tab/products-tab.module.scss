@@ -1,15 +1,32 @@
 .tab {
-  display: flex;
-  column-gap: 32px;
+  overflow-x: auto;
+  overflow-y: hidden;
 
-  &_item {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  &::-webkit-scrollbar {
+    height: 0;
   }
 
-  .item {
-    width: 100%;
-    max-width: 96px;
+  &_container {
+    min-width: 100%;
+    width: max-content;
+    display: flex;
+    column-gap: 32px;
+    justify-content: space-between;
+  }
+
+  &_item {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+
+    .item {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    &_item {
+      width: 84px;
+    }
   }
 }

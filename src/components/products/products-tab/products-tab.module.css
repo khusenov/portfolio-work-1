@@ -1,15 +1,29 @@
 .tab {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.tab::-webkit-scrollbar {
+  height: 0;
+}
+.tab_container {
+  min-width: 100%;
+  width: max-content;
   display: flex;
   column-gap: 32px;
+  justify-content: space-between;
 }
 .tab_item {
-  width: 100%;
+  width: 120px;
   display: flex;
   justify-content: center;
 }
-.tab .item {
+.tab_item .item {
   width: 100%;
-  max-width: 96px;
+}
+@media (max-width: 560px) {
+  .tab_item {
+    width: 84px;
+  }
 }
 
 /*# sourceMappingURL=products-tab.module.css.map */

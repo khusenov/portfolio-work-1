@@ -23,7 +23,7 @@ export default function Home() {
             <Divider/>
             <TopProducts/>
             <Anniversary/>
-            {/*<Products/>*/}
+            <Products/>
             <Process/>
             <Divider direction="bottom"/>
             <Mix/>

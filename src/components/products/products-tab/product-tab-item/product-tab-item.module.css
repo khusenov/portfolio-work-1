@@ -35,7 +35,6 @@
 }
 .item_title {
   font-size: 48px;
-  line-height: 36px;
   margin: 24px 0;
   font-weight: 400;
   color: #000000;
@@ -43,7 +42,7 @@
 .item:after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   height: 2px;
@@ -53,6 +52,12 @@
 }
 .item.active:after {
   width: 100%;
+}
+@media (max-width: 560px) {
+  .item_title {
+    font-size: 32px;
+    margin: 12px 0 16px 0;
+  }
 }
 
 /*# sourceMappingURL=product-tab-item.module.css.map */

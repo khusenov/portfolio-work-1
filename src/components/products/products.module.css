@@ -18,12 +18,23 @@
 .section_cards {
   margin: 64px 0 0 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  --columns: 3;
+  grid-template-columns: repeat(var(--columns), 1fr);
   grid-column-gap: 32px;
   grid-row-gap: 64px;
 }
 .section_cards_item {
   width: 100% !important;
+}
+@media (max-width: 648px) {
+  .section_cards {
+    --columns: 2;
+  }
+}
+@media (max-width: 424px) {
+  .section_cards {
+    --columns: 1;
+  }
 }
 
 /*# sourceMappingURL=products.module.css.map */
