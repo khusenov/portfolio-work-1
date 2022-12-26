@@ -6,7 +6,7 @@ import NavLink from "./nav-link/nav-link";
 import Icon from "../global/icon/icon";
 import NavBurger from "./nav-burger/nav-burger";
 import NavSidebar from "./nav-sidebar/nav-sidebar";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 function Navbar(props) {
     const {
@@ -17,6 +17,10 @@ function Navbar(props) {
 
     const closeSidebar = () => setIsSidebarOpen(false);
     const openSidebar = () => setIsSidebarOpen(true);
+
+    useEffect(() => {
+        window.addEventListener("resize", closeSidebar)
+    }, [])
 
 
     return (

@@ -57,10 +57,6 @@ function NavSidebar(props) {
         isOpen ? open() : close();
     }, [isOpen])
 
-    useEffect(() => {
-        window.addEventListener("resize", close)
-    }, [])
-
     return (
         <>
             <div
