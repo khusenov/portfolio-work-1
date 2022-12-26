@@ -15,7 +15,14 @@ export default function Home() {
         <>
             <Head>
                 <title>Bakery</title>
-                <meta name="description" content="Свежый хлеб из натуральных ингредиентов с бесплатной доставкой к порогу вашего дома"/>
+                <meta property="og:url" content="https://portfolio-work-1.vercel.app"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Bakery"/>
+                <meta
+                    property="og:description"
+                    content="Свежый хлеб из натуральных ингредиентов с бесплатной доставкой к порогу вашего дома"
+                />
+                <meta property="og:image" content="/social_preview.jpg"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <Navbar/>
