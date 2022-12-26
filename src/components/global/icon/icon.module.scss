@@ -84,4 +84,8 @@
   &.telegram {
     mask-image: url("src/telegram.svg");
   }
+
+  &.close {
+    mask-image: url("src/close.svg");
+  }
 }

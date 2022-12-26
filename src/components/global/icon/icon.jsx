@@ -5,10 +5,14 @@ function Icon(props) {
     const {
         className,
         name,
+        ...other
     } = props;
 
     return (
-        <i className={classNames([styles.icon, styles[name], className])}/>
+        <i
+            className={classNames([styles.icon, styles[name], className])}
+            {...other}
+        />
     );
 }
 

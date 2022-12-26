@@ -77,5 +77,8 @@
 .icon.telegram {
   mask-image: url("src/telegram.svg");
 }
+.icon.close {
+  mask-image: url("src/close.svg");
+}
 
 /*# sourceMappingURL=icon.module.css.map */
