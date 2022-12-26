@@ -53,6 +53,8 @@ function NavSidebar(props) {
         document.body.style.overflow = "auto"
     };
 
+    window.addEventListener("resize", close)
+
     useEffect(() => {
         isOpen ? open() : close();
     }, [isOpen])

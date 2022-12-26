@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/icon/icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/icon/icon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/icon/icon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/icon/icon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/icon/icon.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/icon/icon.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/icon/icon.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/icon/icon.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-burger/nav-burger.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-burger/nav-burger.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-burger/nav-burger.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-burger/nav-burger.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-burger/nav-burger.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-burger/nav-burger.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/nav-sidebar/nav-sidebar.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +103,7 @@
       <workItem from="1671973087772" duration="5252000" />
       <workItem from="1672051388724" duration="5271000" />
       <workItem from="1672062312580" duration="1620000" />
-      <workItem from="1672073737410" duration="1132000" />
+      <workItem from="1672073737410" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1671721878232</created>
@@ -221,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672063341317</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1672075038225</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672075038225</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
