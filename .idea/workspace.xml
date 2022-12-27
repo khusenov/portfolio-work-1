@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="a41781cc-c4d2-400d-b3bd-2d8177676572" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1672062312580" duration="1620000" />
       <workItem from="1672073737410" duration="2093000" />
       <workItem from="1672102233529" duration="700000" />
-      <workItem from="1672128363116" duration="1179000" />
+      <workItem from="1672128363116" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1671721878232</created>
@@ -262,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672129195724</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <created>1672129612893</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672129612893</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
