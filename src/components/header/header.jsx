@@ -18,7 +18,7 @@ function Header(props) {
             <Container>
                 <div className={styles.header_body}>
                     <div className={styles.header_content}>
-                        <h1 className={classNames([styles.header_content_title, amalfi_regular.className])}>
+                        <h1 className={`${styles.header_content_title} ${amalfi_regular.className}`}>
                             Мы делаем хлеб полезным и вкусным
                         </h1>
                         <p className={styles.header_content_paragraph}>
