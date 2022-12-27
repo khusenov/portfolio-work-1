@@ -19,6 +19,7 @@
   column-gap: var(--column-gap);
 }
 .card_num {
+  font-family: "amalfi-regular", sans-serif;
   width: var(--num-width);
   font-size: 132px;
   line-height: 84px;
