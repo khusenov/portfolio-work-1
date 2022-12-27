@@ -2,6 +2,7 @@ import "../src/styles/index.css"
 import localFont from "@next/font/local";
 import {gsap} from "gsap";
 import styles from "../src/styles/variables.module.scss"
+import {classNames} from "../src/utils/classNames";
 
 export const circeRoundedFont_regular = localFont({
     src: "./fonts/CirceRounded-Regular.otf"
@@ -25,7 +26,7 @@ gsap.defaults({
 
 function MyApp({Component, pageProps}) {
     return (
-        <main className={circeRoundedFont_regular.className}>
+        <main className={classNames([ amalfi_regular.className, circeRoundedFont_regular.className])}>
             <Component {...pageProps} />
         </main>
     )

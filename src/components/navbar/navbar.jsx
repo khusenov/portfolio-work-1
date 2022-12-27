@@ -7,6 +7,7 @@ import Icon from "../global/icon/icon";
 import NavBurger from "./nav-burger/nav-burger";
 import NavSidebar from "./nav-sidebar/nav-sidebar";
 import {useEffect, useState} from "react";
+import {circeRoundedFont_regular} from "../../../pages/_app";
 
 function Navbar(props) {
     const {
@@ -31,16 +32,16 @@ function Navbar(props) {
                         <Logo className={styles.nav_logo}/>
                         <ul className={styles.nav_menu}>
                             <li className={styles.nav_menu_item}>
-                                <NavLink className={styles.nav_menu_link}>Меню</NavLink>
+                                <NavLink className={classNames([styles.nav_menu_link, circeRoundedFont_regular.className])}>Меню</NavLink>
                             </li>
                             <li className={styles.nav_menu_item}>
-                                <NavLink className={styles.nav_menu_link}>О нас</NavLink>
+                                <NavLink className={classNames([styles.nav_menu_link, circeRoundedFont_regular.className])}>О нас</NavLink>
                             </li>
                             <li className={styles.nav_menu_item}>
-                                <NavLink className={styles.nav_menu_link}>Доставка</NavLink>
+                                <NavLink className={classNames([styles.nav_menu_link, circeRoundedFont_regular.className])}>Доставка</NavLink>
                             </li>
                             <li className={styles.nav_menu_item}>
-                                <NavLink className={styles.nav_menu_link}>Контакты</NavLink>
+                                <NavLink className={classNames([styles.nav_menu_link, circeRoundedFont_regular.className])}>Контакты</NavLink>
                             </li>
                         </ul>
                         <div className={styles.nav_contact}>
