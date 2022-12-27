@@ -1,7 +1,6 @@
 import styles from "./contact.module.scss"
 import {classNames} from "../../utils/classNames";
 import Container from "../global/container/container";
-import {amalfi_regular} from "../../../pages/_app";
 
 function Contact(props) {
     const {
@@ -14,13 +13,13 @@ function Contact(props) {
             <Container>
                 <div className={styles.contact_body}>
                     <div className={styles.contact_content}>
-                        <h2 className={classNames([styles.contact_content_title, amalfi_regular.className])}>Мы всегда вам рады</h2>
+                        <h2 className={classNames([styles.contact_content_title])}>Мы всегда вам рады</h2>
                         <div className={styles.contact_content_item}>
-                            <h4 className={classNames([styles.contact_content_item_title, amalfi_regular.className])}>Приём заказов:</h4>
+                            <h4 className={classNames([styles.contact_content_item_title])}>Приём заказов:</h4>
                             <p className={styles.contact_content_item_subtitle}>+7702 777 77 77</p>
                         </div>
                         <div className={styles.contact_content_item}>
-                            <h4 className={classNames([styles.contact_content_item_title, amalfi_regular.className])}>Приходите к нам:</h4>
+                            <h4 className={classNames([styles.contact_content_item_title])}>Приходите к нам:</h4>
                             <p className={styles.contact_content_item_subtitle}>Loft pineapple, 22 Pink Street, New
                                 York</p>
                         </div>

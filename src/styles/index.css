@@ -13,7 +13,13 @@
 
 @font-face {
   font-family: "amalfi-regular";
+  font-weight: 400;
   src: url("./fonts/Amalfi-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "circe-rounded-regular";
+  font-weight: 400;
+  src: url("./fonts/CirceRounded-Regular.otf") format("opentype");
 }
 * {
   margin: 0;
@@ -21,6 +27,7 @@
   box-sizing: border-box;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  font-family: "circe-rounded-regular", sans-serif;
 }
 
 ul, li {
@@ -37,6 +44,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "amalfi-regular", sans-serif;
   font-weight: 400;
   line-height: 0.62em;
 }

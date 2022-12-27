@@ -5,7 +5,6 @@ import image1 from "../../assets/images/anniversary-1.png";
 import image2 from "../../assets/images/anniversary-2.png";
 import Image from "next/image";
 import AnniversaryCard from "./anniversary-card/anniversary-card";
-import {amalfi_regular} from "../../../pages/_app";
 
 function Anniversary(props) {
     const {
@@ -20,7 +19,7 @@ function Anniversary(props) {
         >
             <Container>
                 <div className={styles.section_body}>
-                    <h2 className={classNames([styles.section_title, amalfi_regular.className])}>Випекаем с душой и любовью уже 11 лет</h2>
+                    <h2 className={classNames([styles.section_title])}>Випекаем с душой и любовью уже 11 лет</h2>
                     <div className={styles.section_container}>
                         <div className={styles.section_container_content}>
                             <AnniversaryCard

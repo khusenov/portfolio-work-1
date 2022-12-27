@@ -9,7 +9,6 @@ import Image from "next/image";
 import MixCard from "./mix-card/mix-card";
 import MixDivider from "./mix-divider/mix-divider";
 import Button from "../global/button/button";
-import {amalfi_regular} from "../../../pages/_app";
 
 function Mix(props) {
     const {
@@ -21,10 +20,10 @@ function Mix(props) {
         <section className={classNames([styles.section, className])} {...other}>
             <Container>
                 <div className={styles.section_body}>
-                    <h2 className={classNames([styles.section_title, amalfi_regular.className])}>Еженеделбная корзина хлеба</h2>
+                    <h2 className={classNames([styles.section_title])}>Еженеделбная корзина хлеба</h2>
                     <div className={styles.section_container}>
                         <div className={styles.section_content}>
-                            <h4 className={classNames([styles.section_content_title, amalfi_regular.className])}>#1. Микс</h4>
+                            <h4 className={classNames([styles.section_content_title])}>#1. Микс</h4>
                             <p className={styles.section_content_paragraph}>
                                 Подпишитесь на еженедельную доставку хлебной корзины. Аккуратно доставим к порогу вашего
                                 дома в удобное вам время.
