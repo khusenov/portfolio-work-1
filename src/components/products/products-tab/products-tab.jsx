@@ -22,7 +22,7 @@ function ProductsTab(props) {
                         <ProductTabItem
                             className={styles.item}
                             onClick={() => handleChangeTab(_item)}
-                            icon={_item.icon}
+                            image={_item.image}
                             label={_item.label}
                             is_active={active_tab.value === _item.value}
                         />

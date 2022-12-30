@@ -11,6 +11,7 @@ import {useEffect, useState} from "react";
 function Navbar(props) {
     const {
         className,
+        ...other
     } = props;
 
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -25,7 +26,7 @@ function Navbar(props) {
 
     return (
         <>
-            <nav className={classNames([styles.nav, className])}>
+            <nav className={classNames([styles.nav, className])} {...other}>
                 <Container>
                     <div className={styles.nav_body}>
                         <Logo className={styles.nav_logo}/>

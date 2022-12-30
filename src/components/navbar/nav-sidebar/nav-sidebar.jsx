@@ -9,7 +9,7 @@ function NavSidebar(props) {
     const {
         className,
         isOpen,
-        onClose,
+        closeHandler,
         ...other
     } = props;
 
@@ -63,7 +63,7 @@ function NavSidebar(props) {
                 className={classNames([styles.sidebar_outside, className])}
                 ref={outsideRef}
                 style={{...(!isVisible && {display: "none"})}}
-                onClick={onClose && onClose}
+                onClick={closeHandler && closeHandler}
                 {...other}
             />
             <div
@@ -86,10 +86,9 @@ function NavSidebar(props) {
                     </li>
                 </ul>
                 <Icon
-                    onClick={onClose && onClose}
+                    onClick={closeHandler && closeHandler}
                     className={styles.sidebar_close}
                     name="close"
-
                 />
             </div>
         </>

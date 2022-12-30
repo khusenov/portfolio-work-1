@@ -10,10 +10,11 @@ import Image from "next/image";
 function Header(props) {
     const {
         className,
+        ...other
     } = props;
 
     return (
-        <header className={classNames([styles.header, className])}>
+        <header className={classNames([styles.header, className])} {...other}>
             <Container>
                 <div className={styles.header_body}>
                     <div className={styles.header_content}>

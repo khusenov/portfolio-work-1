@@ -46,7 +46,7 @@ function Mix(props) {
                             <Button>Подписаться</Button>
                         </div>
                         <div className={styles.section_img}>
-                            <Image src={mixImage} alt="mix" priority={true} style={{height: "auto"}}/>
+                            <Image src={mixImage} alt="mix" priority={true} width={300} height={300}/>
                         </div>
                     </div>
                 </div>

@@ -9,13 +9,13 @@ import AnniversaryCard from "./anniversary-card/anniversary-card";
 function Anniversary(props) {
     const {
         className,
-        id,
+        ...other
     } = props;
 
     return (
         <section
             className={classNames([styles.section, className])}
-            id={id}
+            {...other}
         >
             <Container>
                 <div className={styles.section_body}>

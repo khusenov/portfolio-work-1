@@ -13,7 +13,7 @@ function MixCard(props) {
     return (
         <div className={classNames([styles.card, className])} {...other}>
             <div className={styles.card_img}>
-                <Image src={image} alt={title} priority={true} style={{width: "100%"}}/>
+                <Image src={image} alt={title} width={120} height={120}/>
             </div>
             <h6 className={classNames([styles.card_title])}>{title}</h6>
         </div>

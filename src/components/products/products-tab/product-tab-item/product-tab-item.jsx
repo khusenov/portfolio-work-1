@@ -1,11 +1,11 @@
 import styles from "./product-tab-item.module.scss";
 import {classNames} from "../../../../utils/classNames";
-import Icon from "../../../global/icon/icon";
+import Image from "next/image";
 
 function ProductTabItem(props) {
     const {
         className,
-        icon,
+        image,
         label,
         is_active,
         ...other
@@ -14,7 +14,7 @@ function ProductTabItem(props) {
     return (
         <div className={classNames([styles.item, is_active && styles.active, className])} {...other}>
             <div className={styles.item_img}>
-                <Icon className={styles.icon} name={icon}/>
+                <Image src={image} alt={label} width={32} height={32}/>
             </div>
             <h6 className={classNames([styles.item_title])}>{label}</h6>
         </div>

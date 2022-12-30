@@ -5,10 +5,11 @@ function Divider(props) {
     const {
         className,
         direction,
+        ...other
     } = props;
 
     return (
-        <div className={classNames([styles.divider, styles[direction], className])}/>
+        <div className={classNames([styles.divider, styles[direction], className])} {...other}/>
     );
 }
 

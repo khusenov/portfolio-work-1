@@ -10,10 +10,11 @@ import Button from "../global/button/button";
 function TopProducts(props) {
     const {
         className,
+        ...other
     } = props;
 
     return (
-        <section className={classNames([styles.products, className])}>
+        <section className={classNames([styles.products, className])} {...other}>
             <Container>
                 <div className={styles.products_body}>
                     <h2 className={classNames([styles.products_title])}>

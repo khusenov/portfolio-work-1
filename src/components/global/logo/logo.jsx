@@ -8,7 +8,7 @@ function Logo(props) {
 
     return (
         <div className={classNames([styles.logo, className])}>
-            <Image src={logo} alt="logo" priority={true}/>
+            <Image src={logo} alt="logo" width={220} height={40}/>
         </div>
     );
 }

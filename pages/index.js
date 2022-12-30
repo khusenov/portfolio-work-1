@@ -28,13 +28,13 @@ export default function Home() {
             <Navbar/>
             <Header/>
             <Divider/>
-            <TopProducts/>
-            <Anniversary/>
-            <Products/>
-            <Process/>
+            <TopProducts id="top_products"/>
+            <Anniversary id="anniversary"/>
+            <Products id="products"/>
+            <Process id="process"/>
             <Divider direction="bottom"/>
-            <Mix/>
-            <Contact/>
+            <Mix id="mix"/>
+            <Contact id="contact"/>
             <Footer/>
         </>
     )

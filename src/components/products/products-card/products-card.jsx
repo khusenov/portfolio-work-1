@@ -14,7 +14,7 @@ function ProductsCard(props) {
     return (
         <div className={classNames([styles.card, className])}>
             <div className={styles.card_img}>
-                <Image src={image} alt={title} priority={true}/>
+                <Image src={image} alt={title} width={300} height={300}/>
             </div>
             <h4 className={classNames([styles.card_title])}>{title}</h4>
             <p className={styles.card_paragraph}>{paragraph}</p>
