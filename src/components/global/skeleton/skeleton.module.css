@@ -1,0 +1,50 @@
+:export {
+  color_white_d60: #b4b4b4;
+  color_white_d40: #E5E5E0;
+  color_white_d20: #F6F6F0;
+  color_white_main: #FFFFF9;
+  color_black_l40: #a6a6a2;
+  color_black_l20: #595957;
+  color_black_main: #000000;
+  color_primary_l20: #f8d276;
+  color_primary_main: #F9BE35;
+  transition_time: 0.2;
+}
+
+.skeleton {
+  background-color: #595957;
+  opacity: 0.1;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #FFFFF9;
+  opacity: 0.2;
+  transform: skew(-20deg) translateX(-150%);
+  animation: skeleton-shimmer 2s ease infinite;
+  filter: blur(20px);
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    left: 0;
+    transform: skew(-20deg) translateX(-150%);
+  }
+  33.3% {
+    left: 100%;
+    transform: skew(-20deg) translateX(50%);
+  }
+  100% {
+    left: 100%;
+    transform: skew(-20deg) translateX(50%);
+  }
+}
+
+/*# sourceMappingURL=skeleton.module.css.map */

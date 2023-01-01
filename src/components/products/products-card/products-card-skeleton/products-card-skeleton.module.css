@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_img {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50% !important;
+}
+.card_title {
+  margin: 24px 0 16px 0;
+  width: 60%;
+}
+.card_paragraph {
+  width: 100%;
+}
+.card_price {
+  width: 100%;
+  max-width: 120px;
+  margin: 8px 0 0 0;
+}
+
+/*# sourceMappingURL=products-card-skeleton.module.css.map */

@@ -1,0 +1,38 @@
+@import "../../../styles/variables.module";
+
+.skeleton {
+  background-color: $color_black_l20;
+  opacity: 0.1;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: $color_white_main;
+    opacity: 0.2;
+    transform: skew(-20deg) translateX(-150%);
+    animation: skeleton-shimmer $transition_time * 10 + s ease infinite;
+    filter: blur(20px);
+  }
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    left: 0;
+    transform: skew(-20deg) translateX(-150%);
+  }
+  33.3% {
+    left: 100%;
+    transform: skew(-20deg) translateX(50%);
+  }
+  100% {
+    left: 100%;
+    transform: skew(-20deg) translateX(50%);
+  }
+}

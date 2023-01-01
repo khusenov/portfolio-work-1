@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_img {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50% !important;
+  }
+
+  &_title {
+    margin: 24px 0 16px 0;
+    width: 60%;
+  }
+
+  &_paragraph {
+    width: 100%;
+  }
+
+  &_price {
+    width: 100%;
+    max-width: 120px;
+    margin: 8px 0 0 0;
+  }
+}

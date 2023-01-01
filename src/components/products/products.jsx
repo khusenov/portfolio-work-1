@@ -6,6 +6,7 @@ import {useEffect, useState} from "react";
 import ProductsCard from "./products-card/products-card";
 import {categoryApi} from "../../__fake-api__/category-api";
 import {productsApi} from "../../__fake-api__/products-api";
+import ProductsCardSkeleton from "./products-card/products-card-skeleton/products-card-skeleton";
 
 function Products(props) {
     const {
@@ -17,6 +18,7 @@ function Products(props) {
     const [activeTab, setActiveTab] = useState(null);
 
     const [products, setProducts] = useState([]);
+    const [productsLoading, setProductsLoading] = useState(null);
 
     async function getCategories() {
         try {
@@ -37,12 +39,14 @@ function Products(props) {
     }
 
     async function getProducts(category_id) {
+        setProductsLoading(true);
         try {
             const res = await productsApi.getProducts(category_id);
             setProducts(res.results);
         } catch (err) {
             console.error(err)
         }
+        setProductsLoading(false);
     }
 
     function handleTabsChange(item) {
@@ -72,7 +76,7 @@ function Products(props) {
                         onChange={handleTabsChange}
                     />
                     <div className={styles.section_cards}>
-                        {products.map(_product => (
+                        {!productsLoading && products.map(_product => (
                             <ProductsCard
                                 className={styles.section_cards_item}
                                 image={_product.image}
@@ -80,6 +84,12 @@ function Products(props) {
                                 paragraph={_product.paragraph}
                                 price={_product.price}
                                 key={_product.id}
+                            />
+                        ))}
+                        {productsLoading && [1, 2, 3].map(_item => (
+                            <ProductsCardSkeleton
+                                className={styles.section_cards_item}
+                                key={_item}
                             />
                         ))}
                     </div>
