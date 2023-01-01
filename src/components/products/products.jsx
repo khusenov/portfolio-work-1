@@ -7,6 +7,7 @@ import ProductsCard from "./products-card/products-card";
 import {categoryApi} from "../../__fake-api__/category-api";
 import {productsApi} from "../../__fake-api__/products-api";
 import ProductsCardSkeleton from "./products-card/products-card-skeleton/products-card-skeleton";
+import ProductsEmptyState from "./products-empty-state/products-empty-state";
 
 function Products(props) {
     const {
@@ -94,6 +95,9 @@ function Products(props) {
                         ))}
                     </div>
                 </div>
+                {(!products.length & !productsLoading) && (
+                    <ProductsEmptyState/>
+                )}
             </Container>
         </section>
     );
