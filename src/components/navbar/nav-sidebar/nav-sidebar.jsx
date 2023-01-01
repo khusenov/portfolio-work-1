@@ -38,6 +38,8 @@ function NavSidebar(props) {
         document.body.style.overflow = "hidden"
     };
     const close = () => {
+        console.log("close sidebar")
+
         if (!outsideRef.current || !sidebarRef.current) {
             return;
         }

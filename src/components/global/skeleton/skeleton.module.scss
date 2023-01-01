@@ -18,6 +18,7 @@
     transform: skew(-20deg) translateX(-150%);
     animation: skeleton-shimmer $transition_time * 10 + s ease infinite;
     filter: blur(20px);
+    z-index: 1;
   }
 }
 

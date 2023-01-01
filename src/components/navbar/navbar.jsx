@@ -60,7 +60,7 @@ function Navbar(props) {
             </nav>
             <NavSidebar
                 isOpen={isSidebarOpen}
-                onClose={closeSidebar}
+                closeHandler={closeSidebar}
             />
         </>
     );
